@@ -21,3 +21,23 @@ This collection of models can be directly trained using the [TrajNet++](https://
 
 This collection of models can be trained using modifications of other open-source model repositories to TrajNet++ format.
 
+# License
+
+[MIT License](LICENSE)
+
+# Citation
+
+If you find this code useful in your research then please cite
+
+```
+@article{Kothari2020HumanTF,
+  author={Kothari, Parth and Kreiss, Sven and Alahi, Alexandre},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  title={Human Trajectory Forecasting in Crowds: A Deep Learning Perspective},
+  year={2021},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TITS.2021.3069362}
+ }
+```
