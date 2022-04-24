@@ -29,11 +29,11 @@ This collection of models can be trained using modifications of other open-sourc
 
 ## Results
 
-|Model |ADE/FDE |Collisions |AIcrowd submission |
-|-|-|-|-|
-|<b>Trajectory Transformer</b>|1.22/2.57|13.86|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180765)|
-|<b>STGAT</b>|0.88/1.85|11.28|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180750)|
-|<b>Social-STGCNN</b>|0.80/1.52|16.78|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180812)|
+|Model |ADE/FDE |Top-3 ADE/FDE|Collisions |AIcrowd submission |
+|-|-|-|-|-|
+|<b>Trajectory Transformer</b>|1.22/2.57|0.70/1.45|13.86|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180765)|
+|<b>STGAT</b>|0.88/1.85|0.65/1.35|11.28|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180750)|
+|<b>Social-STGCNN</b>|0.80/1.52|0.61/1.18|16.78|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180812)|
 
 
 # License
