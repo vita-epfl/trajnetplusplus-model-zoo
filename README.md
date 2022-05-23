@@ -12,9 +12,9 @@ This collection of models can be directly trained using the [TrajNet++](https://
 
 |Interaction Class |Reference |Command | Description |
 |-|-|-|-|
-|<b>Occupancy LSTM</b>|[Alahi et al.](https://openaccess.thecvf.com/content_cvpr_2016/html/Alahi_Social_LSTM_Human_CVPR_2016_paper.html)|`python -m trajnetbaselines.lstm.trainer --type occupancy --augment`|Occupancy Grid|
-|<b>Social LSTM</b>|[Alahi et al.](https://openaccess.thecvf.com/content_cvpr_2016/html/Alahi_Social_LSTM_Human_CVPR_2016_paper.html)|`python -m trajnetbaselines.lstm.trainer --type social --augment`|Social Grid|
-|<b>Directional LSTM</b>|[Kothari et al.](https://ieeexplore.ieee.org/document/9408398)|`python -m trajnetbaselines.lstm.trainer --type directional --augment`|Directional Grid|
+|<b>Occupancy LSTM</b>|[Alahi et al.](https://openaccess.thecvf.com/content_cvpr_2016/html/Alahi_Social_LSTM_Human_CVPR_2016_paper.html)|`sh scripts/interaction/occupancy.sh`|Occupancy Grid|
+|<b>Social LSTM</b>|[Alahi et al.](https://openaccess.thecvf.com/content_cvpr_2016/html/Alahi_Social_LSTM_Human_CVPR_2016_paper.html)|`sh scripts/interaction/social.sh`|Social Grid|
+|<b>Directional LSTM</b>|[Kothari et al.](https://ieeexplore.ieee.org/document/9408398)|`sh scripts/interaction/directional.sh`|Directional Grid|
 
 
 ### External Models
@@ -28,6 +28,8 @@ This collection of models can be trained using modifications of other open-sourc
 |<b>Social-STGCNN</b>|[Mohamed et al.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Mohamed_Social-STGCNN_A_Social_Spatio-Temporal_Graph_Convolutional_Neural_Network_for_Human_CVPR_2020_paper.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/Social-STGCNN)|
 
 ## Results
+
+The folowing numbers are obtained using the officially released hyperparameters in the respective repositories. We are still in the process of tuning hyperparameters to optimize performance on TrajNet++
 
 |Model |ADE/FDE |Top-3 ADE/FDE|Collisions |AIcrowd submission |
 |-|-|-|-|-|
