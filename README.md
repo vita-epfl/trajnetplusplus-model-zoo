@@ -26,6 +26,8 @@ This collection of models can be trained using modifications of other open-sourc
 |<b>Trajectory Transformer</b>|[Giuliari et al.](https://arxiv.org/pdf/2003.08111.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/Trajectory-Transformer)|
 |<b>STGAT</b>|[Huang et al.](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_STGAT_Modeling_Spatial-Temporal_Interactions_for_Human_Trajectory_Prediction_ICCV_2019_paper.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/STGAT)|
 |<b>Social-STGCNN</b>|[Mohamed et al.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Mohamed_Social-STGCNN_A_Social_Spatio-Temporal_Graph_Convolutional_Neural_Network_for_Human_CVPR_2020_paper.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/Social-STGCNN)|
+|<b>CausalHTP</b>|[Chen et al.](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Human_Trajectory_Prediction_via_Counterfactual_Analysis_ICCV_2021_paper.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/CausalHTP)|
+
 
 ## Results
 
@@ -36,7 +38,7 @@ The folowing numbers are obtained using the officially released hyperparameters 
 |<b>Trajectory Transformer</b>|1.22/2.57|0.70/1.45|13.86|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180765)|
 |<b>STGAT</b>|0.88/1.85|0.65/1.35|11.28|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180750)|
 |<b>Social-STGCNN</b>|0.80/1.52|0.61/1.18|16.78|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/180812)|
-
+|<b>CausalHTP</b>|0.85/1.78|0.65/1.35|10.87|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/189076)|
 
 # License
 
