@@ -29,6 +29,7 @@ This collection of models can be trained using modifications of other open-sourc
 |<b>CausalHTP</b>|[Chen et al.](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Human_Trajectory_Prediction_via_Counterfactual_Analysis_ICCV_2021_paper.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/CausalHTP)|
 |<b>SocialWays</b>|[Amirian et al.](https://openaccess.thecvf.com/content_CVPRW_2019/papers/Precognition/Amirian_Social_Ways_Learning_Multi-Modal_Distributions_of_Pedestrian_Trajectories_With_GANs_CVPRW_2019_paper.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/socialways)|
 |<b>SR-LSTM</b>|[Zhang et al.](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_SR-LSTM_State_Refinement_for_LSTM_Towards_Pedestrian_Trajectory_Prediction_CVPR_2019_paper.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/SR-LSTM)|
+|<b>DAG-Net</b>|[Monti et al.](https://arxiv.org/pdf/2005.12661v2.pdf)|`./trajnet_scripts/trajnet_run.sh`|[repository link](https://github.com/vita-epfl/dagnet)|
 
 ## Results
 
@@ -42,6 +43,7 @@ The folowing numbers are obtained using the officially released hyperparameters 
 |<b>CausalHTP</b>|0.85/1.78|0.65/1.35|10.87|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/189076)|
 |<b>SocialWays*</b>|2.57/4.69|2.56/4.67|0.57|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/189097)|
 |<b>SR-LSTM</b>|0.80/1.58|0.80/1.58|10.84|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/189098)|
+|<b>DAG-Net</b>|0.66/1.44|0.56/1.22|9.22|[submission link](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge/submissions/189932)|
 
 <b>*</b> - unreliable official implementation, yields unreliable evaluation results
 
